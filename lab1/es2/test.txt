@@ -1,0 +1,11 @@
+http://www.mysite.it/file.html
+ftp://10.9.9.71/prova.zip
+http://another.site.com/%7Euser/index.html#rif33
+http://another.site.com/index.html#rif33
+nntp://news.site.ch:8181/data/
+http://localhost:8000
+http://localhost/sito.html
+http://www.mysite.it/file.html
+ftp://10.9.9.71/prova.zip
+http://another.site.com/%7Euser/index.html#rif33
+nntp://news.site.ch:8181/data/

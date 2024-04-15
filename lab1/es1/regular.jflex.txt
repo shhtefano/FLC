@@ -1,0 +1,24 @@
+%%
+
+%standalone
+%class Lab1
+
+nl 			= \n|\r|\r\n
+PathFileName 		= ({Drive}":")?(\\)?({PathName} \\)* {FileName} ({FileType})?
+Drive 			= [a-zA-Z]
+PathName		= {Id} 
+FileName 		= {Id}  
+FileType		= "." {Id}
+Id 			= [^ / \\ : * ? \" < > | \n \r ]+
+
+%%
+
+
+
+{PathFileName}		{System.out.println("PATHFILENAME:"+yytext());}
+			
+
+
+{nl}|" "|\t   {;}
+
+.		{System.out.println("Error: " + yytext());}
